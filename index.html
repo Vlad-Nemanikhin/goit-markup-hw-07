@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g==" crossorigin="anonymous" />
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
     <title>WebStudio</title>
 </head>
 
@@ -22,8 +22,8 @@
         <div class="container page-header__conteiner">
             
             <nav class="page-header__nav">
-                <a href="./index.html" class="logotype">Web<span class="page-header__logotype">Studio</span></a>
-                <ul class="header-nav">
+                <a href="./index.html" class="logotype">Web<span class="logotype logotype--headering">Studio</span></a>
+                <ul class="header-nav header-nav--indent">
 
                     <li class="header-nav__item header-nav__item--current">
                         <a class="header-nav__link" href="./index.html" id="webstudio" >Студия</a>
@@ -33,7 +33,7 @@
                         <a class="header-nav__link" href="./portfolio.html" id="portfolio"   target="_blank">Портфолио</a>
                     </li>
 
-                    <li clss="header-nav__item">
+                    <li class="header-nav__item">
                         <a class="header-nav__link" href="#">Контакты</a>
                     </li>
 
@@ -119,7 +119,7 @@
             </div>
         </section>
 
-        <section class="team">
+        <section class="team team--painted">
             <div class="container">
                 <h2 class="team__title team__title--indent">Наша команда</h2>
                 <ul class="card-set">
@@ -129,28 +129,28 @@
                             <h3 class="card-set__name card-set__name--indent">Игорь Демьяненко</h3>
                             <p class="card-set__decr card-set__decr--indent">Product Designer</p>
                             <ul class="social-contacts">
-                                <li class=" social-contacts__item">
-                                    <a class=" social-contacts__link" href="#"><svg class="social-contacts__icon" width="20"height="20">
+                                <li class=" social-contacts__item social-contacts__item--team">
+                                    <a class=" social-contacts__link social-contacts__link--team" href="#"><svg class="social-contacts__icon" width="20"height="20">
                                             <use href="./images/icons.svg#icon-instagram"><use>
                                         </svg>
                                     </a>
                                 </li>
-                                <li class=" social-contacts__item">
-                                    <a class="social-contacts__link" href="#">
+                                <li class=" social-contacts__item social-contacts__item--team">
+                                    <a class="social-contacts__link social-contacts__link--team" href="#">
                                         <svg class="social-contacts__icon" width="20" height="20">
                                             <use href="./images/icons.svg#icon-twitter"><use>
                                         </svg>
                                     </a>
                                 </li>
-                                <li class=" social-contacts__item">
-                                    <a class="social-contacts__link" href="#">
+                                <li class=" social-contacts__item social-contacts__item--team">
+                                    <a class="social-contacts__link social-contacts__link--team" href="#">
                                         <svg class="social-contacts__icon" width="20" height="20">
                                             <use href="./images/icons.svg#icon-fb"></use>
                                         </svg>
                                     </a>
                                 </li>
-                                <li class=" social-contacts__item">
-                                    <a class="social-contacts__link" href="#">
+                                <li class=" social-contacts__item social-contacts__item--team">
+                                    <a class="social-contacts__link social-contacts__link--team" href="#">
                                         <svg class="social-contacts__icon" width="20" height="20">
                                             <use href="./images/icons.svg#icon-linkedin"><use>
                                         </svg>
@@ -165,31 +165,34 @@
                             <h3 class="card-set__name card-set__name--indent">Ольга Репина</h3>
                             <p class="card-set__decr card-set__decr--indent">Frontend Developer</p>
                             <ul class="social-contacts">
-                                <li class="social-contacts__item">
-                                    <a class="social-contacts__link" href="#">
-                                        <svg class="social-contacts__icon" width="20"height="20">
-                                            <use href="./images/icons.svg#icon-instagram"><use>
+                                <li class=" social-contacts__item social-contacts__item--team">
+                                    <a class=" social-contacts__link social-contacts__link--team" href="#"><svg class="social-contacts__icon"
+                                            width="20" height="20">
+                                            <use href="./images/icons.svg#icon-instagram">
+                                                <use>
                                         </svg>
                                     </a>
                                 </li>
-                                <li class="social-contacts__item">
-                                    <a class="social-contacts__link" href="#">
+                                <li class=" social-contacts__item social-contacts__item--team">
+                                    <a class="social-contacts__link social-contacts__link--team" href="#">
                                         <svg class="social-contacts__icon" width="20" height="20">
-                                            <use href="./images/icons.svg#icon-twitter"><use>
+                                            <use href="./images/icons.svg#icon-twitter">
+                                                <use>
                                         </svg>
                                     </a>
                                 </li>
-                                <li class="social-contacts__item">
-                                    <a class="social-contacts__link" href="#">
+                                <li class=" social-contacts__item social-contacts__item--team">
+                                    <a class="social-contacts__link social-contacts__link--team" href="#">
                                         <svg class="social-contacts__icon" width="20" height="20">
                                             <use href="./images/icons.svg#icon-fb"></use>
                                         </svg>
                                     </a>
                                 </li>
-                                <li class="social-contacts__item">
-                                    <a class="social-contacts__link" href="#">
+                                <li class=" social-contacts__item social-contacts__item--team">
+                                    <a class="social-contacts__link social-contacts__link--team" href="#">
                                         <svg class="social-contacts__icon" width="20" height="20">
-                                            <use href="./images/icons.svg#icon-linkedin"><use>
+                                            <use href="./images/icons.svg#icon-linkedin">
+                                                <use>
                                         </svg>
                                     </a>
                                 </li>
@@ -202,31 +205,34 @@
                             <h3 class="card-set__name card-set__name--indent">Николай Тарасов</h3>
                             <p class="card-set__decr card-set__decr--indent">Marketing</p>
                             <ul class="social-contacts">
-                                <li class="social-contacts__item">
-                                    <a class="social-contacts__link" href="#">
-                                        <svg class="social-contacts__icon" width="20" height="20">
-                                            <use href="./images/icons.svg#icon-instagram"></use>
+                                <li class=" social-contacts__item social-contacts__item--team">
+                                    <a class=" social-contacts__link social-contacts__link--team" href="#"><svg class="social-contacts__icon"
+                                            width="20" height="20">
+                                            <use href="./images/icons.svg#icon-instagram">
+                                                <use>
                                         </svg>
                                     </a>
                                 </li>
-                                <li class="social-contacts__item">
-                                    <a class="social-contacts__link" href="#">
+                                <li class=" social-contacts__item social-contacts__item--team">
+                                    <a class="social-contacts__link social-contacts__link--team" href="#">
                                         <svg class="social-contacts__icon" width="20" height="20">
-                                            <use href="./images/icons.svg#icon-twitter"></use>
+                                            <use href="./images/icons.svg#icon-twitter">
+                                                <use>
                                         </svg>
                                     </a>
                                 </li>
-                                <li class="social-contacts__item">
-                                    <a class="social-contacts__link" href="#">
+                                <li class=" social-contacts__item social-contacts__item--team">
+                                    <a class="social-contacts__link social-contacts__link--team" href="#">
                                         <svg class="social-contacts__icon" width="20" height="20">
                                             <use href="./images/icons.svg#icon-fb"></use>
                                         </svg>
                                     </a>
                                 </li>
-                                <li class="social-contacts__item">
-                                    <a class="social-contacts__link" href="#">
+                                <li class=" social-contacts__item social-contacts__item--team">
+                                    <a class="social-contacts__link social-contacts__link--team" href="#">
                                         <svg class="social-contacts__icon" width="20" height="20">
-                                            <use href="./images/icons.svg#icon-linkedin"></use>
+                                            <use href="./images/icons.svg#icon-linkedin">
+                                                <use>
                                         </svg>
                                     </a>
                                 </li>
@@ -239,31 +245,34 @@
                             <h3 class="card-set__name card-set__name--indent">Михаил Ермаков</h3>
                             <p class="card-set__decr card-set__decr--indent">UI Designer</p>
                             <ul class="social-contacts">
-                                <li class="social-contacts__item">
-                                    <a class="social-contacts__link" href="#">
-                                        <svg class="social-contacts__icon" width="20" height="20">
-                                            <use href="./images/icons.svg#icon-instagram"></use>
+                                <li class=" social-contacts__item social-contacts__item--team">
+                                    <a class=" social-contacts__link social-contacts__link--team" href="#"><svg class="social-contacts__icon"
+                                            width="20" height="20">
+                                            <use href="./images/icons.svg#icon-instagram">
+                                                <use>
                                         </svg>
                                     </a>
                                 </li>
-                                <li class="social-contacts__item">
-                                    <a class="social-contacts__link" href="#">
+                                <li class=" social-contacts__item social-contacts__item--team">
+                                    <a class="social-contacts__link social-contacts__link--team" href="#">
                                         <svg class="social-contacts__icon" width="20" height="20">
-                                            <use href="./images/icons.svg#icon-twitter"></use>
+                                            <use href="./images/icons.svg#icon-twitter">
+                                                <use>
                                         </svg>
                                     </a>
                                 </li>
-                                <li class="social-contacts__item">
-                                    <a class="social-contacts__link" href="#">
+                                <li class=" social-contacts__item social-contacts__item--team">
+                                    <a class="social-contacts__link social-contacts__link--team" href="#">
                                         <svg class="social-contacts__icon" width="20" height="20">
                                             <use href="./images/icons.svg#icon-fb"></use>
                                         </svg>
                                     </a>
                                 </li>
-                                <li class="social-contacts__item">
-                                    <a class="social-contacts__link" href="#">
+                                <li class=" social-contacts__item social-contacts__item--team">
+                                    <a class="social-contacts__link social-contacts__link--team" href="#">
                                         <svg class="social-contacts__icon" width="20" height="20">
-                                            <use href="./images/icons.svg#icon-linkedin"></use>
+                                            <use href="./images/icons.svg#icon-linkedin">
+                                                <use>
                                         </svg>
                                     </a>
                                 </li>
@@ -295,7 +304,7 @@
     <footer class="page-footer">
         <div class="container page-footer__conteiner">
             <div class="address-wrapper">
-            <a href="./index.html" class="logotype">Web<span class="page-footer__logotype">Studio</span></a>
+            <a href="./index.html" class="logotype">Web<span class="logotype logotype--footering">Studio</span></a>
             <address class="address">
                 <p class="address__content">г. Киев, пр-т Леси Украинки, 26</p>
             <ul class="address-list">
@@ -311,30 +320,30 @@
             
             <div class="social-networks">
                 <h2 class="social-networks__title">Присоединяйтесь</h2>
-                <ul class="social-list">
-                    <li class="social-contacts__item social-list_item">
-                        <a class="social-contacts__link" href="#"><svg class="social-list__icon" width="20" height="20">
+                <ul class="social-contacts">
+                    <li class="social-contacts__item social-contacts__item--footer">
+                        <a class="social-contacts__link social-contacts__link--footer" href="#"><svg class="social-contacts__icon" width="20" height="20">
                             <use href="./images/icons.svg#icon-instagram"></use>
                         </svg>
                         </a>
                     </li>
-                    <li class="social-contacts__item social-list_item">
-                        <a class="social-contacts__link" href="#">
-                        <svg class="social-list__icon" width="20" height="20">
+                    <li class="social-contacts__item social-contacts__item--footer">
+                        <a class="social-contacts__link social-contacts__link--footer" href="#">
+                        <svg class="social-contacts__icon" width="20" height="20">
                             <use href="./images/icons.svg#icon-twitter"></use>
                         </svg>
                         </a>
                     </li>
-                    <li class="social-contacts__item social-list_item">
-                        <a class="social-contacts__link" href="#">
-                        <svg class="social-list__icon" width="20" height="20">
+                    <li class="social-contacts__item social-contacts__item--footer">
+                        <a class="social-contacts__link social-contacts__link--footer" href="#">
+                        <svg class="social-contacts__icon" width="20" height="20">
                             <use href="./images/icons.svg#icon-fb"></use>
                         </svg>
                         </a>
                     </li>
-                    <li class="social-contacts__item social-list_item">
-                        <a class="social-contacts__link" href="#">
-                        <svg class="social-list__icon" width="20" height="20">
+                    <li class="social-contacts__item social-contacts__item--footer">
+                        <a class="social-contacts__link social-contacts__link--footer" href="#">
+                        <svg class="social-contacts__icon" width="20" height="20">
                             <use href="./images/icons.svg#icon-linkedin"></use>
                         </svg>
                         </a>

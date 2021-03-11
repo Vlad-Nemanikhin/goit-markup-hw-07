@@ -1,0 +1,14 @@
+.page-header {
+  width: var(--common-width);
+  background: var(--header-background);
+  border-bottom: 1px solid var(--header-border);
+}
+.page-header__nav {
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+
+.page-header__conteiner{
+  display: flex;
+}
