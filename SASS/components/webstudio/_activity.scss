@@ -1,0 +1,31 @@
+.activity{
+	padding-bottom: var(--section-padding);
+	&__title {
+
+  color: var(--h-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+}
+
+.activity__title--indents {
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: var(--inner-section-margin);
+}
+
+.galery {
+	display: flex;
+	margin-right: - var(--card-margin);
+	&__item {
+		width: calc((100% - 60px) / 3);
+		&:not(:last-child){
+		margin-right: var(--card-margin);
+		}
+	}
+}
+

@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g==" crossorigin="anonymous" />
-<link rel="stylesheet" href="./css/styles.css">
+<link rel="stylesheet" href="./css/main.min.css">
 <title>Portfolio</title>
 </head>
 <body>
@@ -18,8 +18,8 @@
 		<div class="container page-header__conteiner">
 	
 			<nav class="page-header__nav">
-				<a href="./index.html" class="logotype">Web<span class="page-header__logotype">Studio</span></a>
-				<ul class="header-nav">
+				<a href="./index.html" class="logotype">Web<span class="logotype logotype--headering">Studio</span></a>
+				<ul class="header-nav header-nav--indent">
 	
 					<li class="header-nav__item">
 						<a class="header-nav__link" href="./index.html" id="webstudio">Студия</a>
@@ -29,7 +29,7 @@
 						<a class="header-nav__link" href="./portfolio.html" id="portfolio" target="_blank">Портфолио</a>
 					</li>
 	
-					<li clss="header-nav__item">
+					<li class="header-nav__item">
 						<a class="header-nav__link" href="#">Контакты</a>
 					</li>
 	
@@ -63,135 +63,160 @@
 	
 	<!-- MAIN PART-->
 	
-	<main class="wallpaper">
-		<section class="services">
+	<main class="wrapper">
+		<section class="offers">
 			<div class="container">
 				<h1 class="visually-hidden">Наши услуги</h1>
 				
-				<ul class="services-btn">
-					<li><button type="button">Все</button></li>
-					<li><button type="button">Веб-сайты</button></li>
-					<li><button type="button">Приложения</button></li>
-					<li><button type="button">Дизайн</button></li>
-					<li><button type="button">Маркетинг</button></li>
+				<ul class="offers__group">
+					<li class="offers__item" ><button type="button" class="offers__button">Все</button></li>
+					<li class="offers__item"><button type="button" class="offers__button">Веб-сайты</button></li>
+					<li class="offers__item"><button type="button" class="offers__button">Приложения</button></li>
+					<li class="offers__item"><button type="button" class="offers__button">Дизайн</button></li>
+					<li class="offers__item"><button type="button" class="offers__button">Маркетинг</button></li>
 				</ul>
 			
-				<ul class="examples">
-					<li class="work-examples"><div class="examples-thumb">
-						<img src="./images/site.jpg" alt="Веб сайт Технокряк" width="370" 	height="294">
-						<div class="examples-overlay"><p>
-							Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
-							шпионажа и атак на защищённые сервера конкурентов.
-							</p>
+				<ul class="product-grid">
+					<li class="product-grid__item">
+						<div class="product-grid__item-thumb">
+							<img src="./images/site.jpg" alt="Веб сайт Технокряк" width="370" 	height="294">
+							<div class="overlay">
+								<p class="overlay__content">
+									Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
+									шпионажа и атак на защищённые сервера конкурентов.
+								</p>
+							</div>
 						</div>
-						</div>
-						<div class="content-examples">
-							<h2>Технокряк</h2>
-							<p>Веб сайт</p>
-						</div>
-					</li>
-					<li class="work-examples"><div class="examples-thumb">
-						<img src="./images/poster.jpg" alt="Постер New Orlean vs Golden Star" 	width="370" height="294">
-					<div class="examples-overlay">
-						<p>
-							Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
-							шпионажа и атак на защищённые сервера конкурентов.
-						</p>
-					</div></div>
-						<div class="content-examples">
-							<h2>Постер New Orlean vs Golden Star</h2>
-							<p>Дизайн</p>
+						<div class="content-wrapper">
+							<h2 class="product-grid__title">Технокряк</h2>
+							<p class="product-grid__content">Веб сайт</p>
 						</div>
 					</li>
-					<li class="work-examples"><div class="examples-thumb">
-						<img src="./images/restaurant.jpg" alt="Ресторан Seafood" width="370" 	height="294">
-					<div class="examples-overlay">
-						<p>
-							Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
-							шпионажа и атак на защищённые сервера конкурентов.
-						</p>
-					</div></div>
-						<div class="content-examples">
-							<h2>Ресторан Seafood</h2>
-							<p>Приложение</p>
-						</div>
-					</li>
-					<li class="work-examples"><div class="examples-thumb">
-						<img src="./images/earphone.jpg" alt="Проект Prime" width="370" 	height="294">
-					<div class="examples-overlay">
-						<p>
-							Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
-							шпионажа и атак на защищённые сервера конкурентов.
-						</p>
-					</div></div>
-						<div class="content-examples">
-							<h2>Проект Prime</h2>
-							<p>Маркетинг</p>
-						</div>
-					</li>
-					<li class="work-examples"><div class="examples-thumb">
-						<img src="./images/boxes.jpg" alt="Проект Boxes" width="370" 	height="294">
-					<div class="examples-overlay">
-						<p>
-							Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
-							шпионажа и атак на защищённые сервера конкурентов.
-						</p>
-					</div></div>
-						<div class="content-examples">
-							<h2>Проект Boxes</h2>
-							<p>Приложение</p>
-						</div>
-					</li>
-					<li class="work-examples"><div class="examples-thumb">
-						<img src="./images/monitor.jpg" alt="Веб сайт Inspiration has no 	Borders" width="370" height="294"><div class="examples-overlay">
-							<p>
+					<li class="product-grid__item">
+						<div class="product-grid__item-thumb">
+							<img src="./images/poster.jpg" alt="Постер New Orlean vs Golden Star" 	width="370" height="294">
+							<div class="overlay">
+								<p class="overlay__content">
 								Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
 								шпионажа и атак на защищённые сервера конкурентов.
-							</p>
-						</div></div>
-						<div class="content-examples">
-							<h2>Inspiration has no Borders</h2>
-							<p>Веб сайт</p>
+								</p>
+							</div>
+						</div>
+						<div class="content-wrapper">
+							<h2 class="product-grid__title">Постер New Orlean vs Golden Star</h2>
+							<p class="product-grid__content">Дизайн</p>
 						</div>
 					</li>
-					<li class="work-examples"><div class="examples-thumb">
-						<img src="./images/edition.jpg" alt="Издание Limited Edition" 	width="370" height="294">
-					<div class="examples-overlay">
-						<p>
-							Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
-							шпионажа и атак на защищённые сервера конкурентов.
-						</p>
-					</div></div>
-						<div class="content-examples">
-							<h2>Издание Limited Edition</h2>
-							<p>Дизайн</p>
+					<li class="product-grid__item">
+						<div class="product-grid__item-thumb">
+							<img src="./images/restaurant.jpg" alt="Ресторан Seafood" width="370" 	height="294">
+							<div class="overlay">
+								<p class="overlay__content">
+									Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
+									шпионажа и атак на защищённые сервера конкурентов.
+								</p>
+							</div>
 						</div>
+							<div class="content-wrapper">
+								<h2 class="product-grid__title">Ресторан Seafood</h2>
+								<p class="product-grid__content">Приложение</p>
+							</div>
 					</li>
-					<li class="work-examples"><div class="examples-thumb">
-						<img src="./images/lab.jpg" alt="Проект LAB" width="370" height="294">
-					<div class="examples-overlay">
-						<p>
-							Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
-							шпионажа и атак на защищённые сервера конкурентов.
-						</p>
-					</div></div>
-						<div class="content-examples">
-							<h2>Проект LAB</h2>
-							<p>Маркетинг</p>
+					<li class="product-grid__item">
+						<div class="product-grid__item-thumb">
+							<img src="./images/earphone.jpg" alt="Проект Prime" width="370" 	height="294">
+							<div class="overlay">
+								<p class="overlay__content">
+									Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
+									шпионажа и атак на защищённые сервера конкурентов.
+								</p>
+							</div>
 						</div>
+							<div class="content-wrapper">
+								<h2 class="product-grid__title">Проект Prime</h2>
+								<p class="product-grid__content">Маркетинг</p>
+							</div>
+						
 					</li>
-					<li class="work-examples"><div class="examples-thumb">
-						<img src="./images/bisiness.jpg" alt="Приложение Growing Business" 	width="370" height="294">
-					<div class="examples-overlay">
-						<p>
-							Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
-							шпионажа и атак на защищённые сервера конкурентов.
-						</p>
-					</div></div>
-						<div class="content-examples">
-							<h2>Growing Business</h2>
-							<p>Приложение</p>
+					<li class="product-grid__item">
+						<div class="product-grid__item-thumb">
+							<img src="./images/boxes.jpg" alt="Проект Boxes" width="370" 	height="294">
+							<div class="overlay">
+								<p class="overlay__content">
+									Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
+									шпионажа и атак на защищённые сервера конкурентов.
+								</p>
+							</div>
 						</div>
+							<div class="content-wrapper">
+								<h2 class="product-grid__title">Проект Boxes</h2>
+								<p class="product-grid__content">Приложение</p>
+							</div>
+						
+					</li>
+					<li class="product-grid__item">
+						<div class="product-grid__item-thumb">
+							<img src="./images/monitor.jpg" alt="Веб сайт Inspiration has no 	Borders" width="370" height="294">
+							<div class="overlay">
+								<p class="overlay__content">
+									Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
+									шпионажа и атак на защищённые сервера конкурентов.
+								</p>
+							</div>
+						</div>
+							<div class="content-wrapper">
+								<h2 class="product-grid__title">Inspiration has no Borders</h2>
+								<p class="product-grid__content">Веб сайт</p>
+							</div>
+						
+					</li>
+					<li class="product-grid__item">
+						<div class="product-grid__item-thumb">
+							<img src="./images/edition.jpg" alt="Издание Limited Edition" 	width="370" height="294">
+							<div class="overlay">
+								<p class="overlay__content">
+									Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
+									шпионажа и атак на защищённые сервера конкурентов.
+								</p>
+							</div>
+						</div>
+							<div class="content-wrapper">
+								<h2 class="product-grid__title">Издание Limited Edition</h2>
+								<p class="product-grid__content">Дизайн</p>
+							</div>
+						
+					</li>
+					<li class="product-grid__item">
+						<div class="product-grid__item-thumb">
+							<img src="./images/lab.jpg" alt="Проект LAB" width="370" height="294">
+							<div class="overlay">
+								<p class="overlay__content">
+									Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
+									шпионажа и атак на защищённые сервера конкурентов.
+								</p>
+							</div>
+						</div>
+							<div class="content-wrapper">
+								<h2 class="product-grid__title">Проект LAB</h2>
+								<p class="product-grid__content">Маркетинг</p>
+							</div>
+						
+					</li>
+					<li class="product-grid__item">
+						<div class="product-grid__item-thumb">
+							<img src="./images/bisiness.jpg" alt="Приложение Growing Business" 	width="370" height="294">
+							<div class="overlay">
+								<p class="overlay__content">
+									Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
+									шпионажа и атак на защищённые сервера конкурентов.
+								</p>
+							</div>
+						</div>
+							<div class="content-wrapper">
+								<h2 class="product-grid__title">Growing Business</h2>
+								<p class="product-grid__content">Приложение</p>
+							</div>
+						
 					</li>
 				</ul>
 			</div>
@@ -202,7 +227,7 @@
 	<footer class="page-footer">
 		<div class="container page-footer__conteiner">
 			<div class="address-wrapper">
-				<a href="./index.html" class="logotype">Web<span class="page-footer__logotype">Studio</span></a>
+				<a href="./index.html" class="logotype">Web<span class="logotype logotype--footering">Studio</span></a>
 				<address class="address">
 					<p class="address__content">г. Киев, пр-т Леси Украинки, 26</p>
 					<ul class="address-list">
@@ -218,30 +243,31 @@
 	
 			<div class="social-networks">
 				<h2 class="social-networks__title">Присоединяйтесь</h2>
-				<ul class="social-list">
-					<li class="social-contacts__item social-list_item">
-						<a class="social-contacts__link" href="#"><svg class="social-list__icon" width="20" height="20">
+				<ul class="social-contacts">
+					<li class="social-contacts__item social-contacts__item--footer">
+						<a class="social-contacts__link social-contacts__link--footer" href="#"><svg
+								class="social-contacts__icon" width="20" height="20">
 								<use href="./images/icons.svg#icon-instagram"></use>
 							</svg>
 						</a>
 					</li>
-					<li class="social-contacts__item social-list_item">
-						<a class="social-contacts__link" href="#">
-							<svg class="social-list__icon" width="20" height="20">
+					<li class="social-contacts__item social-contacts__item--footer">
+						<a class="social-contacts__link social-contacts__link--footer" href="#">
+							<svg class="social-contacts__icon" width="20" height="20">
 								<use href="./images/icons.svg#icon-twitter"></use>
 							</svg>
 						</a>
 					</li>
-					<li class="social-contacts__item social-list_item">
-						<a class="social-contacts__link" href="#">
-							<svg class="social-list__icon" width="20" height="20">
+					<li class="social-contacts__item social-contacts__item--footer">
+						<a class="social-contacts__link social-contacts__link--footer" href="#">
+							<svg class="social-contacts__icon" width="20" height="20">
 								<use href="./images/icons.svg#icon-fb"></use>
 							</svg>
 						</a>
 					</li>
-					<li class="social-contacts__item social-list_item">
-						<a class="social-contacts__link" href="#">
-							<svg class="social-list__icon" width="20" height="20">
+					<li class="social-contacts__item social-contacts__item--footer">
+						<a class="social-contacts__link social-contacts__link--footer" href="#">
+							<svg class="social-contacts__icon" width="20" height="20">
 								<use href="./images/icons.svg#icon-linkedin"></use>
 							</svg>
 						</a>

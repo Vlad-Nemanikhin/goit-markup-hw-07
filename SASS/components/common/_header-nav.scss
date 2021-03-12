@@ -6,15 +6,12 @@
 }
 }
 
-.header-nav__item::not(:last-child){margin-right: var(--inner-section-margin);}
-
 .header-nav__item {
   &--current {
   position: relative;
 
   color: var(--hover-color);
 }
-
 
 &--current::after{
   position: absolute;
@@ -27,8 +24,10 @@
   background-color: var(--hover-color);
   border-radius: 2px;
 }
+&:not(:last-child){
+  margin-right: var(--inner-section-margin);
 }
-
+}
 
 .header-nav__link {
   display: block;

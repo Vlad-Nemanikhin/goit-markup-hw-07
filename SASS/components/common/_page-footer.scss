@@ -2,12 +2,11 @@
 .page-footer {
   width: var(--common-width);
   background: var(--footer-background);
-}
-
-.page-footer__conteiner {
+  &__conteiner {
   display: flex;
   padding-top: 60px;
   padding-bottom: 60px;
+}
 }
 
 .address__content {
@@ -41,9 +40,7 @@
 .social-networks{
   padding-top: 12px;
   margin-left: 70px;
-}
-
-.social-networks__title {
+  &__title {
   margin-bottom: 20px;
 
   color: var(--common-color);
@@ -54,14 +51,12 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-
+}
 
 .mailing {
   padding-top: 12px;
   margin-left: 93px;
-}
-
-.mailing__title {
+  &__title {
   margin-bottom: 20px;
 
   color: var(--common-color);
@@ -72,13 +67,13 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+}
 
 .mailing-list {
   display: flex;
-}
-
-.mailing-list__item:not(:last-child) {
+  &__item:not(:last-child) {
   margin-right: 12px;
+}
 }
 
 .form__input-email {
@@ -138,9 +133,8 @@
   letter-spacing: 0.06em;
   color: #FFFFFF;
   cursor: pointer;
-}
 
-.mailing-btn__icon {
+  &__icon {
   position: absolute;
   top: 50%;
   right: 13px;
@@ -148,3 +142,5 @@
   width: 24px;
   height: 24px;
 }
+}
+
